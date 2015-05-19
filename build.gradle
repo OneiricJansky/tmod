@@ -24,9 +24,10 @@ archivesBaseName = "tmod"
 minecraft {
     version = "1.7.10-10.13.3.1407-1.7.10"
     if (file('../run').exists()){
-        assestDir = "../run/assests"
-} else {
-    assestDir = "assests"
+        assetDir = "../run/assets"
+    } else {
+        assetDir = "assets"
+    }
 }
 
 dependencies {
