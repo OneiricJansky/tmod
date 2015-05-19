@@ -13,7 +13,7 @@ public class BlockTitaniumOre extends Block
                 super(Material.iron);
                 setBlockName("titaniumOre");
         		setBlockTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5));
-
+        		setLightLevel(1.0F);
                 setCreativeTab(CreativeTabs.tabBlock);
         }
 }

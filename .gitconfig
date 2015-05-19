@@ -1,0 +1,11 @@
+[push]
+	default = simple
+[user]
+	name = Oneiric Jansky
+    email = oneiricjansky@gmail.com
+[core]
+	editor = vim
+	pager = less -r
+    ignorecase = false
+    sharedRepository = true
+	autocrlf = input
