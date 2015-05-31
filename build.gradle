@@ -22,9 +22,9 @@ group= "com.github.oneiricj_tmod" // http://maven.apache.org/guides/mini/guide-n
 archivesBaseName = "tmod"
 
 minecraft {
-    version = "1.7.10-10.13.3.1407-1.7.10"
+    version = "1.7.10-10.13.3.1420-1.7.10"
     if (file('../run').exists()){
-        assetDir = "../run/assets"
+        runDir = "../run/assets"
     } else {
         assetDir = "assets"
     }
