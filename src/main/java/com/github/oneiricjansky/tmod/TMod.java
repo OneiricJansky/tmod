@@ -1,7 +1,7 @@
 package com.github.oneiricjansky.tmod;
 
 import com.github.oneiricjansky.tmod.help.Reference;
-import com.github.oneiricjansky.tmod.init.ModBlocks;
+
 import com.github.oneiricjansky.tmod.init.ModItems;
 
 import cpw.mods.fml.common.Mod;
@@ -19,7 +19,7 @@ public class TMod {
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		ModItems.init();
-		ModBlocks.init();
+		
 	}
 	
 	@Mod.EventHandler
